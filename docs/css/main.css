@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+main {
+    max-width: 1480px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Default font for the body */
+}
+
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif; /* Use Roboto for headings */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:72px
+}
+
+nav ul{
+    display:flex;
+}
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+}
+
+
+
+      
